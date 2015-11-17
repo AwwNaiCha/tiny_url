@@ -4,12 +4,17 @@
   "description": "URL Shortener from Team 11 for CMPE 281 fall 2015",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
     "url": "github.com/jgao1/URL-shortener"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.13.3",
+    "path": "0.12.7"
+  }
 }
